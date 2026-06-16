@@ -7,13 +7,34 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnCalculadora"
+        android:layout_width="167dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="52dp"
+        android:text="Calculadora"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="122dp" />
+
+    <Button
+        android:id="@+id/btnDB"
+        android:layout_width="167dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="48dp"
+        android:text="Base datos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculadora"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="122dp" />
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="200dp"
+        android:text="Menú"
+        android:textSize="34sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="163dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
