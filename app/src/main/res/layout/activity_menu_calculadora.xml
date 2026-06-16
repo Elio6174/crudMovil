@@ -7,4 +7,33 @@
     android:layout_height="match_parent"
     tools:context=".menuCalculadora">
 
+    <Button
+        android:id="@+id/btnCientifica"
+        android:layout_width="167dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:text="Cientifica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCientifica"
+        app:layout_constraintVertical_bias="0.038"
+        tools:layout_editor_absoluteX="122dp" />
+
+    <Button
+        android:id="@+id/btnCientifica"
+        android:layout_width="167dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="64dp"
+        android:text="Normal"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="122dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:text="Menú calculo "
+        android:textSize="34sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="100dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
