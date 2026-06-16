@@ -12,9 +12,15 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         val botonCalculadora = findViewById<Button>(R.id.btnMenuCalculadora)
+        val botonDB = findViewById<Button>(R.id.btnActivityDB)
 
         botonCalculadora.setOnClickListener {
             val intent = Intent(this, menuCalculadora::class.java)
+            startActivity(intent)
+        }
+
+        botonDB.setOnClickListener {
+            val intent = Intent(this, interfazMostrar::class.java)
             startActivity(intent)
         }
     }

@@ -18,7 +18,7 @@
         tools:layout_editor_absoluteX="122dp" />
 
     <Button
-        android:id="@+id/btnDB"
+        android:id="@+id/btnActivityDB"
         android:layout_width="167dp"
         android:layout_height="43dp"
         android:layout_marginTop="48dp"
