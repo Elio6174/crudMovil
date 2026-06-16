@@ -6,11 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class interfazInsertar : AppCompatActivity() {
+class interfazCalculadoraCientifica : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_interfaz_mostrar)
-
+        setContentView(R.layout.activity_interfaz_calculadora_cientifica)
     }
 }

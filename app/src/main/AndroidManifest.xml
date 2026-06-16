@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ED1_JorgeSalinas_JoelBailon"
         tools:targetApi="31">
         <activity
+            android:name=".interfazCalculadoraNormal"
+            android:exported="false" />
+        <activity
+            android:name=".interfazCalculadoraCientifica"
+            android:exported="false" />
+        <activity
             android:name=".interfazActualizar"
             android:exported="false" />
         <activity
