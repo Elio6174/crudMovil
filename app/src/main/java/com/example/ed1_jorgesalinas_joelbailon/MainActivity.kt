@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         botonDB.setOnClickListener {
-            val intent = Intent(this, interfazMostrar::class.java)
+            val intent = Intent(this, interfazInsertar::class.java)
             startActivity(intent)
         }
     }
